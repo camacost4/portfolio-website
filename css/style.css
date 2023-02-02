@@ -4,11 +4,10 @@ Primary Color (Dark Beige): #BFB288;
 Secondary Color (Beige): #DCD1C3;
 Background (White): #F5F5F5;
 Background (Off-white): #EDEDED;
-Possible background (Light blue): #EFF3FF;
 Accent (Blue): #0028FF;
-Accent Typ (Grey): #383838;
-Accent Typ (Green): #1D292E;
-Accent Typ (Black): #000000;
+Accent links (Green): ##176859;
+Accent main header (Black): #212121;
+Accent sec head and body (Grey): #383838;
 */
 
 /*
@@ -22,11 +21,11 @@ Red hat display: body / Light 300 / Light 300 Italic / Regular 400 / Regular 400
 */
 
 body {
-    background-color: #EFF3FF;
+    background-color:#EDEDED;
     font-family: red hat display;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #383838;   
   }
 
@@ -35,7 +34,7 @@ body {
   }
 
   h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Unbounded', serif;
     font-size: 2.95em;
     font-weight: 600;
     color: #212121; 
@@ -44,7 +43,7 @@ body {
   h2, h3, h4, h5 {
     font-family: 'Unbounded', serif;
     line-height: 1.4;
-    color: #2C2C2C;
+    color: #383838;
   }
   
   h2 {   
@@ -69,4 +68,62 @@ body {
 
   img {
     width: 100%;
+  }
+
+  a {
+    font-family: syne;
+    font-size: 1.30em;
+    color:  #176859;
+    text-decoration: none; 
+  }
+  a:hover,
+  a:focus {
+    color:  #125145;
+    font-weight: 500;
+    /* possible styling choice
+    font-size: 1.35em; 
+    font-weight: 600; */
+  }
+
+  a:active {
+    color: #0a3029;
+  }
+
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #125145;
+    color: #ffffff; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom: 2px solid #176859; /* width of the border, type, color */
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    opacity: 0.85; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .button:active {
+    background-color: #0a3029;
+    color: #ffffff;
+  }
+
+  .button.contact {
+    background-color: transparent;
+  color: #125145;
+  text-transform: uppercase;
+  border: 2.5px solid #125145;
+  }
+
+  .button.contact:hover {
+    background-color: #125145;
+    color: #ffffff;
+  }
+
+  .button.contact:active {
+    background-color: #0a3029;
+    color: #ffffff;
   }
