@@ -1,7 +1,7 @@
 /*
 Colors used:
-Primary Color (Dark Beige): #BFB288;
-Secondary Color (Beige): #DCD1C3;
+Primary Color (Light green): #a7b9b3d9;
+Secondary Color (Beige): #c7baa875;
 Background (White): #F5F5F5;
 Background (Off-white): #EDEDED;
 Accent (Blue): #0028FF;
@@ -20,6 +20,10 @@ Inter: body / ExtraLight 200 / Light 300 / SemiBold 600 / Black 900
 Red hat display: body / Light 300 / Light 300 Italic / Regular 400 / Regular 400 Italic / Bold 700 / Bold 700 Italic
 */
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color:#EDEDED;
     font-family: red hat display;
@@ -31,6 +35,8 @@ body {
 
   h1, h2, h3, h4, h5 {
     line-height: 1.4;
+    text-align: center;
+    margin-top: 45px;
   }
 
   h1 {
@@ -91,17 +97,21 @@ body {
 
   .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #125145;
+    background-color: #435551;
     color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
+    margin: 30px;
     border-radius: 30px;
-    border-bottom: 2px solid #176859; /* width of the border, type, color */
+    border-bottom: 2px solid #435551; /* width of the border, type, color */
     transition: 0.2s opacity;
+    display: flex;
+    justify-content: center;
   }
 
-  .button:hover {
-    opacity: 0.85; /* Reduces the opacity of the button to 80% */
+  .button:hover,
+  .button:focus {
+    opacity: 0.75; /* Reduces the opacity of the button to 80% */
     text-decoration: none;
     color: #ffffff;
   }
@@ -113,13 +123,14 @@ body {
 
   .button.contact {
     background-color: transparent;
-  color: #125145;
+  color: #435551;
   text-transform: uppercase;
-  border: 2.5px solid #125145;
+  border: 2.5px solid #435551;
   }
 
-  .button.contact:hover {
-    background-color: #125145;
+  .button.contact:hover,
+  .button.contact:focus {
+    background-color: #435551;
     color: #ffffff;
   }
 
@@ -127,3 +138,192 @@ body {
     background-color: #0a3029;
     color: #ffffff;
   }
+
+
+ header {
+    background-color:#a7b9b3d9;
+    padding: 20px 0;
+    margin: 10px;
+    margin-top: 15px;
+    border-bottom: 3px solid #a7a4a4;
+    border-radius: 35px;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
+    -moz-box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
+    box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
+  }
+
+  main {
+    margin: auto 10px;
+    margin-top: 20px;
+  }
+
+
+  /* Layout styling */
+  .container {
+    padding: 0 35px;
+  }
+
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+  #work_section {
+    margin-top: 45px;
+  }
+
+  #work_section .row1 {   
+    border-bottom: 1px solid #77777756;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  #work_section .row2 {   
+    padding-bottom: 50px;
+    padding-top: 60px;
+  }
+
+  #hero_section h1 {
+    text-align: center; 
+  }
+
+
+  #logo {
+    max-width: 250px;
+    font-family: syne;
+    color: #435551;
+    font-weight: 900;
+    font-size: 1.6em;
+  }
+
+  #logo:hover
+  #logo:focus {
+    padding: 0 15px;
+    text-transform: uppercase;
+  }
+
+  #logo:active {
+    color: #0a3029;
+  }
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5c706c;
+
+  }
+  
+  nav > ul > li > a:hover {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #125145;
+  }
+
+  nav > ul > li > a:active {
+  color: #0a3029;
+}
+
+#hero_section {
+    background-color: #c7baa875;
+    padding: 20px 0;
+    padding-bottom: 35px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 35px;
+
+  }
+
+  #footer_section {
+    background-color: #a7b9b3d9;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+
+.about_picture {
+    margin: 10px 0;
+    border-radius: 150px;
+}
+
+.about_header {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.filled_section_box {
+    background-color: #c7baa875;
+    padding: 35px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 25px;
+    text-align:justify;
+}
+
+
+.outlined_section_box {
+    padding: 25px;
+    padding-bottom: 55px;
+    margin: 40px 0;
+    background-color: transparent;
+    border: 2px solid #c7baa875;
+    border-radius: 35px;
+    list-style-position: inside;
+}
+
+
+.fitted_top_picture {
+    margin: 10px 0;
+    border-radius: 135px;
+}
+
+.text_align_left {
+    text-align: left;
+}
+
+.text_align_center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.isolated_padding {
+    padding: 60px;
+}
+
+.section_padding {
+    padding: 55px;
+}
+
+hr.full {
+        border-top: 2px solid #c7baa875;
+}
+
+hr.small {
+    border-top: 2px solid #c7baa875;
+    width: 190px;
+}

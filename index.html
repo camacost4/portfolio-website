@@ -13,13 +13,13 @@
     </head>
     <body>
         <header>
-            <div>
-                <a href="index.html">Camila Acosta</a>
+            <div class="container">
+                <a href="index.html" id="logo">Camila Acosta</a>
                 <nav>
                     <ul>
-                         <li><a href="index.html">Work</a></li>
-                         <li><a href="about.html">About</a></li>
-                         <li><a href="#contact_section">Contact</a></li>
+                         <li><a href="index.html" class="header_link">Work</a></li>
+                         <li><a href="about.html" class="header_link">About</a></li>
+                         <li><a href="#footer_section" class="header_link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,7 +30,7 @@
         <main>
             <div id="hero_section">
 
-                <div>
+                <div class="container"> 
                     <h1>Hi, my name is Camila Acosta. <span>I am a UI/UX designer based in Miami.</span> </h1>
                     <p>I enjoy working on visual design the most and am working towards learning front-end dev. to get a well-rounded knowledge of the design process.</p>
                 </div>
@@ -39,12 +39,13 @@
 
             <div>
 
-                <div id="work_section">
-                    <h2>My Work</h2>
+                <div id="work_section">              
+                    <div class="container">
 
-                    <div>
-                        <div class="row"> 
-                            <div class="col1">
+                        <h2>My Work</h2>
+
+                        <div class="row1"> 
+                            <div>
                                 <div>
                                   <picture>
                                      <source srcset="img/fitted/portfolio_display@1x.png" media="(max-width:767px)">
@@ -59,7 +60,11 @@
                                </div>
                             </div>
                             <br>
-                             <div class="col2">
+
+                        </div>
+
+                        <div class="row2">
+                             <div>
                                  <div>
                                       <picture>
                                       <source srcset="img/dal/portfolio_display@1x.png" media="(max-width:767px)">
@@ -73,9 +78,9 @@
                                       <a href="#" class="button">View</a>
                                   </div>
 
-                                </div>
-
+                             </div>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -84,8 +89,8 @@
         </main>
         
 
-        <footer id="contact_section">
-            <div>
+        <footer id="footer_section">
+            <div class="container">
                 <h2>Get in Touch</h2>
                 <p>If you like my work, feel free to contact me to discuss opportunities. Call: <a href="tel:305-878-1577"></a> Prefer sending an email?</p>
                 <div>
