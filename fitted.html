@@ -34,32 +34,39 @@
                 <div> <!-- Main Page header -->
                     <h1>Fitted <span>A Responsive Web App</span> </h1>
                 </div> <!-- Close Main Page header -->
+<space-around>
 
-                <picture>
+                <picture class="center">
                     <source srcset="img/fitted/mockups/mobile_on_desk_mockup@1x.png" media="(max-width:767px)" class="fitted_top_picture">
                     <img src="img/fitted/mockups/mobile_on_desk_mockup@2x.png" alt="Presentation mockup" class="fitted_top_picture">
                 </picture>
+              
+</space-around>    
 
-
-                <div class="isolated_padding"> <!-- Overview Section -->
-                    <h2 class="text_align_left">Overview</h2>
-                    <p>Fitted is a responsive web app designed to encourage users to increase their physical activity, even if it’s squeezing in a five minute routine.
+                <div> <!-- Overview Section -->
+                    <h2 class="center">Overview</h2>
+                    <p class="center">Fitted is a responsive web app designed to encourage users to increase their physical activity, even if it’s squeezing in a five minute routine.
                         Users are provided with routines, guides, daily challenges, and interactive examples- viewable on mobile, tablet, and desktop.</p>
                 </div> <!-- Close Overview Section -->
+    
 
-                <div class="isolated_padding"> <!-- Objective Section -->
-                    <h2 class="text_align_left">Objective</h2>
-                    <p>Help people focus on their health by increasing their physical activity as a result of discovering exercise routines they enjoy and that are suited to their preferences/lifestyle.</p>
+
+                <div> <!-- Objective Section -->
+                    <h2 class="center">Objective</h2>
+                    <p class="center">Help people focus on their health by increasing their physical activity as a result of discovering exercise routines they enjoy and that are suited to their preferences/lifestyle.</p>
                 </div> <!-- Close Objective Section -->
 
                 
                 <div class="container">
-                <div class="outlined_section_box"> <!-- Process Section -->
+                <div class="outlined_section_box" id="process_section"> <!-- Process Section -->
                     <h2>My Design Process</h2>
 
+                    
                 <div> <!-- Analysis Section -->
-                    <h3 class="text_align_left">Analysis <span>Based on user personas and stories I was provided with, I created user flows in order to understand and visualize how users will interact with the app and what steps they need to take to achieve their goals.</span> </h3>
-                        <div>
+                    <h3>Analysis <span class="text_align_left">Based on user personas and stories I was provided with, I created user flows in order to understand and visualize how users will interact with the app and what steps they need to take to achieve their goals.</span> </h3>
+                        
+          <br>
+                         <div> <!-- user stories -->
                          <h4>User Stories Provided</h4>
                                       
                                  <ul>
@@ -67,30 +74,40 @@
                                    <li>As a new user, I want to be shown how the exercises are done, so that I know I’m doing them correctly.</li>
                                    <li>As a frequent user, I want to complete daily challenges, so that I can have an additional way to stay motivated.</li>
                                  </ul>
-                        </div>
+                        </div> <!-- close user stories -->
 
+                        <div> <!-- user flow -->
                          <h4>User Flow Diagram</h4>
                            <picture>
                               <source srcset="img/fitted/user_flow_diagram@1x.png" media="(max-width:767px)">
                               <img src="img/fitted/user_flow_diagram@2x.png" alt="User flow diagram">
                            </picture>
+                        </div> <!-- close user flow -->
+      
                 </div> <!-- Close Analysis Section -->
-
+         <br>  
                 <hr class="full">
                 
-                <div> <!-- Open Design section. -->
-                    <h3 class="text_align_left">Design <span>I designed with a mobile-first approach in order to focus on the essential content for each screen before having a bigger space to work on.</span> </h3>
+                <div> <!-- Open Design section. --> 
+        <br>
+                    <h3>Design <span class="text_align_left">I designed with a mobile-first approach in order to focus on the essential content for each screen before having a bigger space to work on.</span> </h3>
                        
                         <div> <!-- Open Lo-Fi section. -->
-
+         <br>
                         <div>
                             <h4>Low-Fidelity Wireframes</h4>
                               <p>Based on the user stories and user flow diagram, I drew low-fidelity wireframes for all the main functionalities on the app.</p>
                         </div>
                         
-                            <div class="section_padding"> <!-- Wireframes. -->
+                            <div> <!-- Wireframes. -->
 
-                                <div class="row">
+                                <picture>
+                                    <source srcset="img/fitted/lowFidelityWireframes/low_fidelity_wireframes@1x.png" media="(max-width:767px)">
+                                    <img src="img/fitted/lowFidelityWireframes/low_fidelity_wireframes@1x.png" alt="Low-Fidelity Wireframes">
+                                </picture>
+            
+
+                          <!-- div class="row">
                                     <picture>
                                         <source srcset="img/fitted/lowFidelityWireframes/landing_page@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/lowFidelityWireframes/landing_page@2x.png" alt="Lo-fi Landing page">
@@ -142,25 +159,29 @@
                                     <picture>
                                         <source srcset="img/fitted/lowFidelityWireframes/daily_challenge@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/lowFidelityWireframes/daily_challenge@2x.png" alt="Lo-fi Daily challenge">
-                                    </picture>
-                              </div>
+                                    </picture> -->
+                              </div> <!-- Close Wireframes. -->
+                            </div> <!-- Close Lo-Fi Section. -->
 
-                            </div> <!-- Close Wireframes. -->
-                        </div> <!-- Close Low-Fi Section. -->
+                  <br>
+                        
 
                         <hr class="small">
 
+                       
+
                         <div> <!-- Open Mid-Fi Section. -->
+                   <br>
                             <div>                         
                               <h4>Mid-Fidelity Wireframes</h4>
                                 <p>After getting an idea of how I wanted to organize the app’s content, I started adding UI elements, UI design patterns, text, and ideas of the icons I wanted to use, creating mid-fidelity wireframes.</p>
                             </div>   
 
-                            <div class="section_padding"> <!-- Wireframes. -->
+                            <div> <!-- Wireframes. -->
                                 <div> <!-- UI Pattern examples. -->
                                     
                                   <div class="row"> 
-                                    <div>
+                                    <div class="col-lg-6">
                                         <h5>Input feedback</h5>
                                         <picture>
                                             <source srcset="img/fitted/midFidelityWireframes/uiPatternExamples/sign_in@1x.png" media="(max-width:767px)">
@@ -169,7 +190,7 @@
                                         <p>When there is an input error, there is a message of what the error is in red text and the input field is outlined in red.</p>
                                     </div>
                                     
-                                    <div>
+                                    <div class="col-lg-6">
                                         <h5>Empty Slate</h5>
                                         <picture>
                                             <source srcset="img/fitted/midFidelityWireframes/uiPatternExamples/home_page@1x.png" media="(max-width:767px)">
@@ -180,7 +201,7 @@
                                   </div>                 
 
                                   <div class="row">
-                                    <div>
+                                    <div class="col-lg-6">
                                         <h5>Search Autocomplete</h5>
                                         <picture>
                                             <source srcset="img/fitted/midFidelityWireframes/uiPatternExamples/search_example@1x.png" media="(max-width:767px)">
@@ -189,15 +210,16 @@
                                         <p>Search suggestions appear when users start typing on the search bar.</p>
                                     </div>
                                     
-                                    <div>
+                                    <div class="col-lg-6">
                                         <h5>Modal Window &amp; Sharing</h5>
                                         <picture>
                                             <source srcset="img/fitted/midFidelityWireframes/uiPatternExamples/modal_window@1x.png" media="(max-width:767px)">
                                             <img src="img/fitted/midFidelityWireframes/uiPatternExamples/modal_window@2x.png" alt="Modal Window & Sharing pattern">
                                         </picture>
-                                        <p></p>
+                                        <p>A modal window pops up when users tap the share icon. Users are able to see the exercise they’re sharing and can send it to friends on the app or share via text, email, etc.</p>
                                     </div>
                                   </div>  
+                     <br>
                                     
                                 </div> <!-- Close UI Pattern examples. -->
 
@@ -253,14 +275,21 @@
                                     <img src="img/fitted/midFidelityWireframes/daily_challenge@2x.png" alt="Mid-fi Daily challenge">
                                 </picture>
                             </div> -->
-                            
+                              
                             </div> <!-- Close Wireframes. -->
+                          
 
                         </div> <!-- Close Mid-Fi Section. -->
 
+
+
                         <hr class="small">
 
+                        
+
                         <div> <!-- Open Moodboard Section -->
+
+                            <space-around>
                             <div>
                                 <h4>Moodboard</h4>
                                 <p>At this point, I created two mood boards to figure out what style would suit this app the best.</p>
@@ -274,11 +303,13 @@
                                 <p>I think the selected mood board’s brighter colors and airy/light feel would help users feel more motivated and enjoy learning. The pops of color contrasting the light colors bring attention to the app yet aren’t too distracting.
                                     The other mood board has more neutral, earthy colors and I would use it if I wanted to bring a dark mode to the app.</p>
                             </div> <!-- Close Image -->
+                         </space-around>
                         </div> <!-- Close Moodboard Section -->
 
                         <hr class="small">
 
                         <div> <!-- Open Visual Style Guide Section -->
+                            <space-around>
                             <div>
                                 <h4>Visual Style Guide</h4>
                                 <p>Since the app is content heavy, the style chosen is rooted in simplicity with pops of color. This is meant to keep user’s engaged - not distracted or bored.</p>
@@ -293,21 +324,30 @@
                                 <a href="https://company-246668.frontify.com/d/PaytekRd5RJ3" target="_blank" class="button">View Style Guide</a>
                             </div>
 
-                            
+                        </space-around>
 
                         </div> <!-- Close Visual Style Guide Section -->
 
                         <hr class="small">
 
                         <div> <!-- Open Hi-Fi Wireframes Section -->
+
+                   <br>
                             <div>
                                 <h4>High-Fidelity Wireframes</h4>
-                                <a href="https://www.figma.com/proto/r2nEPyJWyKlRFxO6VXFehy/Fitted?page-id=0%3A1&node-id=174%3A11382&viewport=199%2C-1514%2C0.07&scaling=contain&starting-point-node-id=2%3A17" target="_blank" class="text_align_center">Link to Prototype</a>
                             </div>
+                                           
+                            <div> <!-- Wireframes. -->
 
-                            <div class="section_padding"> <!-- Wireframes. -->
-
-                               <div class="row">
+                   <br> 
+                                <picture>
+                                    <source srcset="img/fitted/highFidelityWireframes/high_fidelity_wireframes@1x.png" media="(max-width:767px)">
+                                    <img src="img/fitted/highFidelityWireframes/high_fidelity_wireframes@2x.png" alt="High-Fidelity Wireframes">
+                                </picture>
+                            
+            
+                               
+                            <!--    <div class="row">
                                 <picture>
                                     <source srcset="img/fitted/highFidelityWireframes/landing_page@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/highFidelityWireframes/landing_page@2x.png" alt="Hi-fi Landing page">
@@ -364,25 +404,36 @@
                                     <source srcset="img/fitted/highFidelityWireframes/daily_challenge@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/highFidelityWireframes/daily_challenge@2x.png" alt="Hi-fi Daily challenge">
                                 </picture>
-                              </div>   
+                              </div>   -->
                                 
                             </div> <!-- Close Wireframes. -->
+                            <a href="https://www.figma.com/proto/r2nEPyJWyKlRFxO6VXFehy/Fitted?page-id=0%3A1&node-id=174%3A11382&viewport=199%2C-1514%2C0.07&scaling=contain&starting-point-node-id=2%3A17" target="_blank" class="button">Link to Prototype</a>
+                       
+                  <br>
                         </div> <!-- Close Hi-Fi Wireframes Section-->
 
                         <hr class="small">
 
                         <div> <!-- Open Responsive Wireframes Section -->
+                 <br>
                             <div>
                                 <h4>Responsive Wirefames</h4>
                                 <p>As I polished up the mobile designs, I started working on the responsive designs and how to reorganize the mobile layout into a bigger canvas in a cohesive manner.</p>
                             </div>
 
-                            <div class="section_padding"> <!-- Wireframes -->
+                            <div> <!-- Wireframes -->
                                 <div> <!-- Tablet Wireframes -->
                                     <h5>Tablet - Low-Fidelity to High-Fidelity</h5>
 
                                   <div class="row">
+
                                     <picture>
+                                        <source srcset="img/fitted/responsiveWireframes/tablet/tablet_exercise_list@1x.png" media="(max-width:767px)">
+                                        <img src="img/fitted/responsiveWireframes/tablet/tablet_exercise_list@2x.png" alt="Tablet Exercise list Wireframes">
+
+                                    </picture>
+
+                         <!--      <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_list@2x.png" alt="Lo-fi tablet Exercise list">
                                     </picture>
@@ -395,11 +446,17 @@
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/highFidelity/exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/highFidelity/exercise_list@2x.png" alt="Hi-fi tablet Exercise list">
-                                    </picture>
-                                  </div>   
+                                    </picture> --> 
+                                  </div>  
         
                                   <div class="row">
+
                                     <picture>
+                                        <source srcset="img/fitted/responsiveWireframes/tablet/tablet_exercise_description@1x.png" media="(max-width:767px)">
+                                        <img src="img/fitted/responsiveWireframes/tablet/tablet_exercise_description@2x.png" alt="Tablet Exercise description Wireframes">
+                                    </picture>
+
+                      <!--          <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_description@2x.png" alt="Lo-fi tablet Exercise description">
                                     </picture>
@@ -412,7 +469,7 @@
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/highFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/highFidelity/exercise_description@2x.png" alt="Hi-fi tablet Exercise description">
-                                    </picture>
+                                    </picture> -->
                                   </div>  
                                 </div> <!-- Close Tablet Wireframes -->
                                 
@@ -421,7 +478,13 @@
                                     <h5>Desktop - Low-Fidelity to High-Fidelity</h5>
 
                                  <div class="row">
+
                                     <picture>
+                                        <source srcset="img/fitted/responsiveWireframes/desktop/desktop_exercise_list@1x.png" media="(max-width:767px)">
+                                        <img src="img/fitted/responsiveWireframes/desktop/desktop_exercise_list@2x.png" alt="Desktop Exercise list Wireframes">
+                                    </picture>
+
+               <!--                <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_list@2x.png" alt="Lo-fi desktop Exercise list">
                                     </picture>
@@ -434,11 +497,17 @@
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/highFidelity/exercise_list_filter@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/highFidelity/exercise_list_filter@2x.png" alt="Hi-fi desktop Exercise list">
-                                    </picture>
+                                    </picture> -->
                                  </div>    
         
                                  <div class="row">
+             
                                     <picture>
+                                        <source srcset="img/fitted/responsiveWireframes/desktop/desktop_exercise_description@1x.png" media="(max-width:767px)">
+                                        <img src="img/fitted/responsiveWireframes/desktop/desktop_exercise_description@2x.png" alt="Desktop Exercise list Wireframes">
+                                    </picture>
+             
+                <!--                <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_description@2x.png" alt="Lo-fi desktop Exercise description">
                                     </picture>
@@ -451,21 +520,29 @@
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/highFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/highFidelity/exercise_description@2x.png" alt="Hi-fi desktop Exercise description">
-                                    </picture>
+                                    </picture> -->
                                  </div>
 
-                                </div> <!-- Close Desktop Wireframes -->
-                            </div> <!-- Close Wireframes -->
-                        </div> <!-- Close Responsive Wireframes Section-->
-                    </div> <!-- Close Design Section-->
+                                  </div> <!-- Close Desktop Wireframes -->
+                              </div> <!-- Close Wireframes -->
+        
+                           </div> <!-- Close Responsive Wireframes Section-->
+                         </div> <!-- Close Design Section-->
                     </div> <!-- Close Process Section-->
-                </div>
+                </div> <!-- Close container-->
                     
                     
                     <div> <!-- Open Final Design -->
+             <br>
                             <h2>Final Design</h2>
                             <div class="row"> <!-- Wireframes -->
+
                                 <picture>
+                                    <source srcset="img/fitted/final_designs@1x.png" media="(max-width:767px)">
+                                    <img src="img/fitted/final_designs@2x.png" alt="Final designs">
+                                </picture>
+
+                   <!--         <picture>
                                     <source srcset="img/fitted/highFidelityWireframes/exercise_list@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/highFidelityWireframes/exercise_list@2x.png" alt="Final mobile design">
                                 </picture>
@@ -478,17 +555,21 @@
                                 <picture>
                                     <source srcset="img/fitted/responsiveWireframes/desktop/highFidelity/final_exercise_list@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/responsiveWireframes/desktop/highFidelity/final_exercise_list@2x.png" alt="Final desktop design">
-                                </picture>                           
+                                </picture>          -->
+              <br>
+                                
                             </div> <!-- Close Wireframes -->
+                        
                         </div> <!-- Close Final Design -->
 
-                        <hr class="full">
+                        <hr class="small">
 
                         <div> <!-- Design in Action Section -->
+                            <space-around>
                            <div>
                             <h2>Design in Action</h2>
                            </div>
-                            <div> <!-- Mockups -->
+                            <div class="isolated_padding"> <!-- Mockups -->
 
                               <div class="row"> 
                                 <picture>
@@ -515,7 +596,7 @@
                                     <source srcset="img/fitted/mockups/desktop_on_table_mockup@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/mockups/desktop_on_table_mockup@2x.png" alt="Desktop on table mockup">
                                 </picture>
-    
+    <br>
                                 <picture>
                                     <source srcset="img/fitted/mockups/mobile_outside_mockup@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/mockups/mobile_outside_mockup@2x.png" alt="Mobile outside mockup">
@@ -530,6 +611,7 @@
                              </div>   
 
                             </div> <!-- Close Mockups -->
+                        </space-around>
 
                         </div> <!-- Close Design in Action Section -->
 
@@ -537,35 +619,44 @@
 
                         <div class="section_padding"> <!-- Open Attributions Section -->
                             <h3>Attributions</h3>
-                        
-                                <ul> <!-- Main list -->
-                                    <li>Mockups:
-                                        <ul>
-                                            <li> <a href="https://www.figma.com/community/plugin/786250770157843670/Mockuuups-Studio">Mockuuups Studio - Figma Plugin</a></li>
-                                            <li> <a href="https://www.figma.com/community/plugin/817043359134136295/Mockup">Mockup - Figma Plugin</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>Illustrations:
+                              <div class="row">   <!-- row1 -->
+                                <ul> <!-- il and img list -->
+                                  
+                                    <li class="col-lg-6">Illustrations:
                                         <ul> 
                                         <li><a href="https://undraw.co/illustrations">Undraw</a></li>
                                         </ul>
-                                    </li>
-                                    <li>Images:
+                                    </li>   
+                                    
+                                   
+                                    <li class="col-lg-6">Images:
                                         <ul>
                                             <li><a href="https://unsplash.com">Unsplash</a></li>
                                             <li><a href="https://www.pexels.com">Pexels</a></li>                                           
-                                        </ul>
-                                        
+                                        </ul>                                     
                                     </li>
-                                    <li>Exercise Info:
+                                </ul>   <!-- close il and img list --> 
+                             </div> <!-- close row1 --> 
+
+                             <div class="row">  <!--row2 -->
+                               <ul> <!--ex and mock list -->                               
+                                    <li class="col-lg-6">Exercise Info:
                                         <ul>
                                             <li><a href=" https://www.strengthlog.com">Strength Log</a></li>
                                             <li><a href=" https://www.yogajournal.com">Yoga Journal</a></li>
                                             <li><a href="https://www.verywellfit.com">VeryWellFit</a></li>
                                         </ul>
                                     </li>
-                                </ul> <!-- Close Main list -->
-                        
+                                    
+                                    <li class="col-lg-6">Mockups:
+                                        <ul>
+                                             <li> <a href="https://www.figma.com/community/plugin/786250770157843670/Mockuuups-Studio">Mockuuups Studio - Figma Plugin</a></li>
+                                             <li> <a href="https://www.figma.com/community/plugin/817043359134136295/Mockup">Mockup - Figma Plugin</a></li>
+                                       </ul>
+                                     </li>
+                                 
+                             </ul> <!-- Close ex and mock list -->       
+                            </div>  <!-- close row2 -->
                         </div> <!-- Close Attributions Section -->
                  </div>
 
