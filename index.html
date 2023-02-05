@@ -19,14 +19,18 @@
 
         <header>
             <div class="container">
+                <div class="navtoggle" id="myNavtoggle"> <!--nav toggle-->
                 <a href="index.html" id="logo">Camila Acosta</a>
                 <nav>
+                
                     <ul>
                          <li><a href="index.html" class="header_link">Work</a></li>
                          <li><a href="about.html" class="header_link">About</a></li>
-                         <li><a href="#footer_section" class="header_link">Contact</a></li>
+                         <li><a href="#footer_section" class="header_link" onclick="menuToggle()">Contact</a></li>
+                         <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </nav>
+                </div> <!--close nav toggle-->
             </div>
 
         </header>
@@ -47,7 +51,7 @@
                 <div id="work_section">  <!--work section-->            
                     <div class="container">
 
-                        <h2 class="isolated_padding">My Work</h2>
+                        <h2>My Work</h2>
 
                         <div class="row"> <!--fitted project row-->
                             <div>
@@ -1602,7 +1606,9 @@
         <footer id="footer_section">
             <div class="container">
                 <h2>Get in Touch</h2>
-                <p>If you like my work, feel free to contact me to discuss opportunities. Call: <a href="tel:305-878-1577"></a> Prefer sending an email?</p>
+                <p>If you like my work, feel free to contact me to discuss opportunities. </p>
+                <p> Call: <a href="tel:305-878-1577">305-878-1577</a> 
+                <p>Prefer sending an email?</p>
                 <div>
                     <a href="mailto:camsresearch4@gmail.com" class="button contact">Email me</a>
                 </div>
@@ -1615,8 +1621,9 @@
                 <p>Copyright Camila Acosta 2023</p>
             </div> 
         </footer>
-
-        <script src="js/scripts.js"></script>
         
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>        
+        <script src="js/scripts.js"></script>
+
     </body>
 </html>

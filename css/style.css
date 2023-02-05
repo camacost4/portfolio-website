@@ -58,8 +58,8 @@ body {
   h2 {   
     font-size: 2.25em;
     font-weight: 300;
-    margin-right: 45px;
-    margin-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   h3 {
@@ -108,7 +108,7 @@ body {
     font-size: 1.10em;
     text-align: center;
     padding: 10px;
-    margin: 30px;
+    margin: 40px;
     border-radius: 30px;
     border-bottom: 2px solid #435551; /* width of the border, type, color */
     transition: 0.3s opacity,0.6s background-color;
@@ -148,22 +148,27 @@ body {
 
 
  header {
-    background-color:#a7b9b3d9;
-    padding: 20px 0;
+    background-color:#b1c0bd;
+    padding: 10px 0 4px;
     margin: 10px;
-    margin-top: 15px;
-    border-bottom: 3px solid #a7a4a4;
-    border-radius: 35px;
-    text-align: center;
-    position: relative;
-    -webkit-box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
-    -moz-box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
-    box-shadow: -1px 20px 89px 4px rgba(173,170,159,1);
+    margin-top: 0px;
+    border-bottom: 1px solid #a7a4a4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 0px 14px 12px -10px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 14px 12px -10px rgba(143,143,143,1);
+    box-shadow: 0px 14px 12px -10px rgba(143,143,143,1);
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
 
   main {
     margin: auto 10px;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 30px;
   }
 
 
@@ -180,6 +185,11 @@ body {
     margin-top: 45px;
   }
 
+  #work_section h2 {
+padding-bottom: 30px;
+  }
+
+
   #work_section .row1 {   
     border-bottom: 1px solid #77777756;
     padding-bottom: 25px;
@@ -193,16 +203,16 @@ body {
 
   #hero_section h1 {
     text-align: center; 
-    font-size: 1.89em;
+    font-size: 1.88em;
   }
 
 
   #logo {
-    max-width: 250px;
+    max-width: 100px;
     font-family: syne;
     color: #435551;
     font-weight: 900;
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   #logo:hover
@@ -215,20 +225,18 @@ body {
     color: #0a3029;
   }
 
-nav {
-    display: inline-block;
-    width: 100%;
-}
+  .navtoggle.responsive li  {
+    display: block;
+  }
 
   nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
     
   }
 
-  nav > ul > li {
-    display: inline-block;
-  }
+  
 
   nav > ul > li > a {
     padding: 0 15px;
@@ -250,15 +258,28 @@ nav {
 }
 
 #hero_section {
-    background-color: #c7baa875;
+    background-color: #b1c0bd;
     padding: 20px 0;
     padding-bottom: 35px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 10px;
+    margin-bottom: 35px;
     display: inline-block;
     width: 100%;
     border-radius: 35px;
     text-align: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+#hero_section .filled_section_box {
+    padding-top: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+  #hero_section h1 {
+    margin-top: 30px;
   }
 
 #hero_section span {
@@ -288,6 +309,8 @@ nav {
     margin: 10px 0;
     border-radius: 150px;
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -324,6 +347,8 @@ nav {
     margin: 10px 0;
     border-radius: 100px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
@@ -384,15 +409,81 @@ body span{
     font-size: 1.4em;
 }
 
+#skills li {
+    min-width:80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25px;
+    font-size: 14px;
+}
+
+#tools li {
+    min-width:80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25px;
+    font-size: 14px;
+}
+
+#my_story p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+    padding-bottom: 8px;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 15px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
 /*Responsive styling*/
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+    
     header {
         text-align: unset;
         padding: 20px 0 15px;
+      }
+
+    #logo {
+        min-width: 641px;
+        font-size: 2.1em;
+    }
+
+    nav > ul {
+        margin: 1em 0;
+      }
+
+    nav > ul > li {
+        display: inline-block;
       }
 
       nav {
@@ -410,16 +501,47 @@ Medium devices (640px and larger)
         padding-top: 15px;
      }
 
-
-
      .col-md-6 {
         width: 50%;
       }
+
+      .col-md-8 {
+        width: 66.66%;
+      }
+
+      .col-md-4 {
+        width: 33.33%;
+      } 
 
       [class*="col-"] {
         float: left;
         padding: 15px;
       }  
+
+      #hero_section {
+        padding-top: 110px;
+        padding-bottom: 45px;
+      }
+
+      #footer_section p {
+        font-size: 1.45em;
+      }
+
+      #footer_section .button {
+        font-size: 1.45em;
+      }
+
+      
+      #footer_section i {
+        font-size: 2.0em;
+      }
+
+      .navtoggle li:not(:last-child) {
+        display: inline-block;
+      }
+      .navtoggle li:last-child {
+        display: none;
+      }      
     
 }
 
@@ -430,7 +552,9 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-    
+    #logo {
+        font-size: 2.2em;
+    }
 
     .col-lg-7 {
         width: 58.33%;
@@ -458,13 +582,17 @@ Large devices (1024px or larger)
     .fitted_top_picture {
         width: 100%;
         border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #process_section {
         margin-top: 90px;
     }
 
-  
+    #work_section h2 {
+        padding-bottom: 60px;
+          }  
 
 }
 /* ==============================
