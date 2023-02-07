@@ -302,6 +302,7 @@ padding-bottom: 30px;
     text-align: center;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
+    margin-top: 55px;
   }
 
   
@@ -465,6 +466,11 @@ body span{
     font-size: 1.8em;
   }
 
+  #attributions {
+    padding-bottom: 70px;
+  
+  }
+
 /*Responsive styling*/
 
 /* ==============================
@@ -479,7 +485,7 @@ Medium devices (640px and larger)
 
     #logo {
         min-width: 641px;
-        font-size: 2.1em;
+        font-size: 1.7em;
     }
 
     nav > ul {
@@ -519,12 +525,16 @@ Medium devices (640px and larger)
 
       [class*="col-"] {
         float: left;
-        padding: 15px;
+        padding: 20px;
       }  
 
       #hero_section {
         padding-top: 110px;
         padding-bottom: 45px;
+      }
+
+      #footer_section {
+        margin-top: 65px;
       }
 
       #footer_section p {
