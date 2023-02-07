@@ -542,7 +542,34 @@ Medium devices (640px and larger)
       .navtoggle li:last-child {
         display: none;
       }      
+
+      #my_story p {
+        font-size: 1.0em;
+      }
+
+      #my_story .filled_section_box {
+        padding-top: 95px;
+      }
     
+      .about_header {
+        padding-top: 40px;
+        font-size: 1.55em;
+      }
+
+
+      #fittedpage h1 {
+        padding-top: 90px;
+        font-size: 2.35em;
+      }
+
+      #skills_and_tools li {
+        font-size: 1.0em;
+      }
+
+      #skills_and_tools .outlined_section_box {
+        margin-top: 0px;
+      }
+
 }
 
 
@@ -552,6 +579,10 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
+    body {
+        font-size: 18px;
+     }
+    
     #logo {
         font-size: 2.2em;
     }
@@ -584,6 +615,7 @@ Large devices (1024px or larger)
         border-radius: 50px;
         margin-left: auto;
         margin-right: auto;
+        max-width: 70%;
     }
 
     #process_section {
@@ -593,6 +625,49 @@ Large devices (1024px or larger)
     #work_section h2 {
         padding-bottom: 60px;
           }  
+
+   #my_story p {
+       font-size: 1.0em;
+          }      
+
+    h4 {
+        font-size: 1.35em;
+    }      
+
+    #fittedpage .outlined_section_box p {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+    }
+
+    #process_section h2{
+        padding-top: 45px;
+        font-size: 2.30em;
+    }
+
+    #process_section h3{
+        padding-top: 35px;
+        font-size: 1.75em;
+    }
+
+    #process_section h4{
+        padding-top: 25px;
+    }
+
+    #process_section span{
+    padding-top: 20px;
+    }
+
+    #process_section hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    #process_section .button {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
 
 }
 /* ==============================
