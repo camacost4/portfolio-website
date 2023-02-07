@@ -466,11 +466,6 @@ body span{
     font-size: 1.8em;
   }
 
-  #attributions {
-    padding-bottom: 70px;
-  
-  }
-
 /*Responsive styling*/
 
 /* ==============================
@@ -525,7 +520,7 @@ Medium devices (640px and larger)
 
       [class*="col-"] {
         float: left;
-        padding: 20px;
+        padding: 15px;
       }  
 
       #hero_section {
