@@ -461,6 +461,10 @@ body span{
     padding: 0 0 10px;
   }
 
+  #footer_section i {
+    font-size: 1.8em;
+  }
+
 /*Responsive styling*/
 
 /* ==============================
