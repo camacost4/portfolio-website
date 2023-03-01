@@ -201,6 +201,12 @@ padding-bottom: 30px;
     padding-top: 60px;
   }
 
+  #work_section img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #hero_section h1 {
     text-align: center; 
     font-size: 1.88em;
@@ -309,7 +315,7 @@ padding-bottom: 30px;
 .about_picture {
     margin: 10px 0;
     border-radius: 150px;
-    width: 60%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     
@@ -379,11 +385,15 @@ padding-bottom: 30px;
 
 hr.full { /*line divider*/
         border-top: 2px solid #c7baa875;
+        margin-top: 65px;
+        margin-bottom: 65px;
 }
 
 hr.small { /*small line divider*/
     border-top: 2px solid #c7baa875;
     width: 190px;
+    margin-top: 55px;
+    margin-bottom: 25px;
 }
 
 .row:after {
@@ -464,6 +474,38 @@ body span{
 
   #footer_section i {
     font-size: 1.8em;
+  }
+
+  #attributions ul {
+    list-style-type: none;
+  }
+
+  #tabletmockup {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #mobiledesktopmockup {
+    padding-left: 20%;
+  }
+
+  #mockups {
+    margin-top: 15%;
+  }
+
+  #final_design img {
+    margin-top: 15%;
+  }
+
+  #uipatternexamples {
+    text-align: center;
+  }
+
+  #uipatternexamples img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 /*Responsive styling*/
@@ -583,6 +625,12 @@ Medium devices (640px and larger)
         width: 90%;
       }
 
+      .fitted_top_picture {
+        width: 70%;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -624,15 +672,33 @@ Large devices (1024px or larger)
       }
 
     .fitted_top_picture {
-        width: 100%;
+        width: 50%;
         border-radius: 50px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 70%;
     }
 
-    #process_section {
-        margin-top: 90px;
+    #process_section img {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #final_design {
+      padding-bottom: 70px;
+    }
+
+    #final_design img {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #design_in_action img {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 25px;
     }
 
     #work_section h2 {
@@ -681,6 +747,15 @@ Large devices (1024px or larger)
         margin-bottom: 70px;
     }
 
+    #attributions {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #attributions ul {
+      padding-left: 15%;
+    }
 
 }
 /* ==============================
