@@ -1,7 +1,7 @@
 /*
 Colors used:
 Primary Color (Light green): #a7b9b3d9;
-Secondary Color (Beige): #c7baa875;
+Secondary Color (Beige): ##e6e0d7;
 Background (White): #F5F5F5;
 Background (Off-white): #EDEDED;
 Accent (Blue): #0028FF;
@@ -322,7 +322,7 @@ padding-bottom: 30px;
 .about_picture {
     margin: 10px 0;
     border-radius: 150px;
-    width: 25%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     
@@ -334,12 +334,12 @@ padding-bottom: 30px;
 }
 
 .filled_section_box {
-    background-color: #c7baa875;
+    background-color: #e6e0d7;
     padding: 35px;
     padding-top: 10px;
     display: inline-block;
     width: 100%;
-    border-radius: 35px;
+    border-radius: 65px;
     margin-top: 25px;
     text-align:justify;
     margin-bottom: 65px;
@@ -352,7 +352,7 @@ padding-bottom: 30px;
     margin: 40px 0;
     background-color: transparent;
     border: 2px solid #c7baa875;
-    border-radius: 35px;
+    border-radius: 65px;
     list-style-position: outside;
 }
 
@@ -439,6 +439,15 @@ body span{
     margin-right: auto;
     padding-right: 25px;
     font-size: 14px;
+}
+
+#my_story a {
+  margin-bottom: 65px;
+}
+
+#my_story h5 {
+  text-align: left;
+  font-size: 14px;
 }
 
 #my_story p {
@@ -532,6 +541,7 @@ body span{
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 /*Responsive styling*/
@@ -668,9 +678,32 @@ Medium devices (640px and larger)
     #styleguide img {
       width: 70%;
     }
-    
-}
 
+    #my_story p {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    #my_story h5 {
+      padding-top: 35px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: left;
+      font-size: 1.0em;
+    }
+
+    .about_picture {
+      margin: 40px 0px;
+      border-radius: 150px;
+      width: 35%;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+
+
+}
 
 
 /* ==============================
@@ -806,8 +839,23 @@ Large devices (1024px or larger)
       padding-top: 2%;
     }
 
+    #my_story p {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
 
-}
+    #my_story h5 {
+      padding-top: 35px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: left;
+      font-size: 1.0em;
+    }
+
+
+
+  }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -852,4 +900,3 @@ svg {
 #lowerbird {
     animation: 5s bird-moving-left infinite alternate linear;
 } 
-
