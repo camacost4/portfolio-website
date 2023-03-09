@@ -69,10 +69,10 @@
 
                 <hr class="small">
                 
-                <div id="process_section" class="container">
+                <div id="process_section">
                 <div> <!-- Process Section -->
                     
-                <div class="section_padding"> <!-- Analysis Section -->
+                <div class="section_padding, container"> <!-- Analysis Section -->
                     <h3>Analysis <span class="text_align_left">Based on user personas and stories I was provided with, I created user flows in order to understand and visualize how users will interact with the app and what steps they need to take to achieve their goals.</span> </h3>
                         
           
@@ -86,12 +86,13 @@
                                  </ul>
                         </div> <!-- close user stories -->
 
-                        <div> <!-- user flow -->
+                        <div id="flowdiagram"> <!-- user flow -->
                          <h4>User Flow Diagram</h4>
-                           <picture>
+                           <picture class="section_padding">
                               <source srcset="img/fitted/user_flow_diagram@1x.png" media="(max-width:767px)">
                               <img src="img/fitted/user_flow_diagram@2x.png" alt="User flow diagram">
                            </picture>
+        
                            <p>It was clear that the main functionalities I would be starting with were the Home, Exercise list, Exercise details page, Quiz, and Daily Challenge. Thus the challenge began to make a content-heavy website feel simple and easy to navigate.</p>
                         </div> <!-- close user flow -->
       
@@ -101,11 +102,13 @@
                 
                 <div class="section_padding"> <!-- Open Design section. --> 
     
+                    <div class="container">
                     <h3>Design <span class="text_align_left">I designed with a mobile-first approach in order to focus on the essential content for each screen before having a bigger space to work on.</span> </h3>
-                       
+                    </div>  
+
                         <div> <!-- Open Lo-Fi section. -->
          
-                        <div>
+                        <div class="container">
                             <h4>Low-Fidelity Wireframes</h4>
                               <p>Based on the user stories and user flow diagram, I drew low-fidelity wireframes for all the main functionalities of the web app. I focused on using design elements that new users would find familiar to combat the challenge of being confused using a content-heavy website.</p>
                         </div>
@@ -181,7 +184,7 @@
 
                        
 
-                        <div> <!-- Open Mid-Fi Section. -->
+                        <div class="container"> <!-- Open Mid-Fi Section. -->
                    <br>
                             <div>                         
                               <h4>Mid-Fidelity Wireframes</h4>
@@ -298,13 +301,13 @@
 
 <br>                        
 
-                        <div id="fitted_moodboard"> <!-- Open Moodboard Section -->
+                        <div id="fitted_moodboard" class="container"> <!-- Open Moodboard Section -->
                             <div>
                                 <h4>Moodboard</h4>
                                 <p class="center">At this point, I created two moodboards to figure out what style would suit this app the best.</p>
                             </div>
 
-                            <div> <!-- Image -->
+                            <div class="section_padding"> <!-- Image -->
                                 <picture>
                                     <source srcset="img/fitted/mboard@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/mboard@2x.png" alt="Moodboard Image">
@@ -318,7 +321,7 @@
 <br>
                         <hr class="small">
 
-                        <div> <!-- Open Visual Style Guide Section -->
+                        <div class="container"> <!-- Open Visual Style Guide Section -->
                             <space-around>
                             <div>
                                 <h4>Visual Style Guide</h4>
@@ -343,15 +346,15 @@
                         <div> <!-- Open Hi-Fi Wireframes Section -->
 
                    <br>
-                            <div>
+                            <div class="container">
                                 <h4>High-Fidelity Wireframes</h4>
                                 <p>This is the final design after incorporating various rounds of feedback. The design is light and consistent throughout all screens. I think keeping the style minimal helped counter the challenge I had from the beginning - which was how to make a content-heavy website feel easy to use. The interactions and gestures in the prototype reflect the intuitive and straightforward nature of the web app’s interface.</p>
                             </div>
                                       
                             
-                            <div> <!-- Wireframes. -->
+                            <div class="section_padding"> <!-- Wireframes. -->
 
-                   <br> 
+                
                                 <picture>
                                     <source srcset="img/fitted/highFidelityWireframes/high_fidelity_wireframes@1x.png" media="(max-width:767px)">
                                     <img src="img/fitted/highFidelityWireframes/high_fidelity_wireframes@2x.png" alt="High-Fidelity Wireframes">
@@ -419,14 +422,16 @@
                               </div>   -->
                                 
                             </div> <!-- Close Wireframes. -->
+
+                            <div class="container"> <!--Prototype link-->
                             <a href="https://www.figma.com/proto/r2nEPyJWyKlRFxO6VXFehy/Fitted?page-id=0%3A1&node-id=174%3A11382&viewport=199%2C-1514%2C0.07&scaling=contain&starting-point-node-id=2%3A17" target="_blank" class="button">Link to Prototype</a>
-                       
+                            </div> <!--Close Prototype link-->
                   <br>
                         </div> <!-- Close Hi-Fi Wireframes Section-->
 
                         <hr class="small">
 
-                        <div id="responsivewireframes"> <!-- Open Responsive Wireframes Section -->
+                        <div id="responsivewireframes" class="container"> <!-- Open Responsive Wireframes Section -->
                  <br>
                             <div>
                                 <h4>Responsive Wirefames</h4>
@@ -435,16 +440,17 @@
 
                             <div> <!-- Wireframes -->
                                 <div> <!-- Tablet Wireframes -->
-                                    <h5>Tablet - Low-Fidelity to High-Fidelity</h5>
+                                    <h5 class="section_padding">Tablet - Low-Fidelity to High-Fidelity</h5>
 
                                   <div class="row">
+                                    <h6>Exercise list</h5>
+                                    <p class="center">I changed how the Exercise list page was formatted to make better use of more screen space. This way users will be able to look through more exercises faster and easier.</p>
 
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/tablet_exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/tablet_exercise_list@2x.png" alt="Tablet Exercise list Wireframes">
                                     </picture>
-                                    <p class="center">I changed how the Exercise list page was formatted to make better use of more screen space. This way users will be able to look through more exercises faster and easier.</p>
-
+                                    
                          <!--      <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_list@2x.png" alt="Lo-fi tablet Exercise list">
@@ -462,13 +468,14 @@
                                   </div>  
         <br>
                                   <div class="row">
+                                    <h6>Exercise description</h6>
+                                    <p class="text_align_center">I reorganized this screen to hold more information and break it down into sections. </p>
 
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/tablet_exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/tablet_exercise_description@2x.png" alt="Tablet Exercise description Wireframes">
                                     </picture>
-                                    <p class="center">I reorganized this screen to hold more information and break it down into sections. </p>
-
+                                    
                       <!--          <picture>
                                         <source srcset="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/tablet/lowFidelity/exercise_description@2x.png" alt="Lo-fi tablet Exercise description">
@@ -489,16 +496,17 @@
         <br>
     
                                 <div> <!-- Desktop Wireframes -->
-                                    <h5>Desktop - Low-Fidelity to High-Fidelity</h5>
+                                    <h5 class="section_padding">Desktop - Low-Fidelity to High-Fidelity</h5>
 
                                  <div class="row">
+                                    <h6>Exercise list</h6>
+                                    <p class="center">Desktop has the same list organization as tablet. However, the filter is now on the side so users can leave it open and play around with the filters easily.</p>
 
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/desktop_exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/desktop_exercise_list@2x.png" alt="Desktop Exercise list Wireframes">
                                     </picture>
-                                    <p class="center">Desktop has the same list organization as tablet. However, the filter is now on the side so users can leave it open and play around with the filters easily.</p>
-
+                                    
                <!--                <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_list@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_list@2x.png" alt="Lo-fi desktop Exercise list">
@@ -516,13 +524,14 @@
                                  </div>    
         <br>
                                  <div class="row">
+                                    <h6>Exercise description</h6>
+                                    <p class="center">Since the screen size allowed for more content, I didn’t want to fill the whole screen with just text. I decided to have the main video and text on the left and the supplementary information on the right side of the screen.</p>
              
                                     <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/desktop_exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/desktop_exercise_description@2x.png" alt="Desktop Exercise list Wireframes">
                                     </picture>
-                                    <p class="center">Since the screen size allowed for more content, I didn’t want to fill the whole screen with just text. I decided to have the main video and text on the left and the supplementary information on the right side of the screen.</p>
-             
+                                   
                 <!--                <picture>
                                         <source srcset="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_description@1x.png" media="(max-width:767px)">
                                         <img src="img/fitted/responsiveWireframes/desktop/lowFidelity/exercise_description@2x.png" alt="Lo-fi desktop Exercise description">
@@ -579,7 +588,7 @@
                         </div> <!-- Close Final Design -->
 
 
-                        <div id="design_in_action"> <!-- Design in Action Section -->
+                        <div id="design_in_action" class="container"> <!-- Design in Action Section -->
                             <space-around>
                            <div>
                             <h2>Design in Action</h2>
