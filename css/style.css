@@ -477,7 +477,8 @@ body span{
   }
 
   #attributions ul {
-    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #tabletmockup {
@@ -495,7 +496,7 @@ body span{
   }
 
   #final_design img {
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   #uipatternexamples {
@@ -507,6 +508,18 @@ body span{
     margin-left: auto;
     margin-right: auto;
   }
+
+  img {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#responsivewireframes img {
+  padding-bottom: 5%;
+}
 
 /*Responsive styling*/
 
@@ -725,12 +738,7 @@ Large devices (1024px or larger)
     }
 
     #process_section h3{
-        padding-top: 35px;
         font-size: 1.75em;
-    }
-
-    #process_section h4{
-        padding-top: 25px;
     }
 
     #process_section span{
@@ -754,8 +762,9 @@ Large devices (1024px or larger)
     }
 
     #attributions ul {
-      padding-left: 15%;
+      padding-left: 18%;
     }
+
 
 }
 /* ==============================
