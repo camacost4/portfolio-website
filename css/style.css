@@ -392,13 +392,14 @@ padding-bottom: 30px;
 
 hr.full { /*line divider*/
         border-top: 2px solid #c7baa875;
+        width: 80%;
         margin-top: 65px;
         margin-bottom: 65px;
 }
 
 hr.small { /*small line divider*/
     border-top: 2px solid #c7baa875;
-    width: 190px;
+    width: 15%;
     margin-top: 55px;
     margin-bottom: 25px;
 }
@@ -423,9 +424,6 @@ body span{
     padding-top: 15px;
  }
 
-#process_section h3 {
-    font-size: 1.4em;
-}
 
 #skills li {
     min-width:80px;
@@ -511,7 +509,7 @@ body span{
   }
 
   #uipatternexamples img {
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -657,6 +655,19 @@ Medium devices (640px and larger)
         margin-right: auto;
     }
 
+    #uipatternexamples img {
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #flowdiagram img {
+      width: 70%;
+    }
+
+    #styleguide img {
+      width: 70%;
+    }
     
 }
 
@@ -753,6 +764,7 @@ Large devices (1024px or larger)
 
     #process_section h3{
         font-size: 1.75em;
+        color: #082721;
     }
 
     #process_section span{
@@ -777,6 +789,21 @@ Large devices (1024px or larger)
 
     #attributions ul {
       padding-left: 18%;
+    }
+
+    #uipatternexamples img {
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #flowdiagram img {
+      width: 70%;
+    }
+
+    #styleguide img {
+      width: 70%;
+      padding-top: 2%;
     }
 
 
